@@ -1,0 +1,448 @@
+{
+  "recorded_at": "2026-11-14T21:20:00-10:00",
+  "source": "Real Dreamdata MCP responses for the 'Iwa Media workspace, recorded Nov 14, 2026 (same day as setup). get_components responses are trimmed to the metrics and properties ddcheck uses; all other responses are complete minus explanatory next_step text.",
+  "site": {
+    "iwamedia.com": {
+      "final_url": "https://iwamedia.com/",
+      "dreamdata_found": true,
+      "gtm_found": false
+    }
+  },
+  "tools": {
+    "list_my_accounts": {
+      "accounts": [
+        {
+          "slug": "ucsd_edu",
+          "name": "'Iwa Media"
+        }
+      ]
+    },
+    "get_account_currency": {
+      "currency": {
+        "code": "usd",
+        "symbol": "$",
+        "symbol_after_amount": false
+      }
+    },
+    "search_companies": {
+      "items": []
+    },
+    "list_audiences": {
+      "folders": [],
+      "items": []
+    },
+    "list_saved_reports": {
+      "folders": [],
+      "items": []
+    },
+    "report_builder_list_subjects:stage_reporting": {
+      "analysis_type": "stage_reporting",
+      "sections": [
+        {
+          "id": "analysis_subjects",
+          "title": "Available analysis subjects",
+          "subtitle": "Single-Stage Reporting",
+          "items": [],
+          "empty_message": "No specific analysis subjects available."
+        }
+      ]
+    },
+    "report_builder_get_components:activityCountMetrics": {
+      "analysis_type": "touchpoint_activity_performance",
+      "analysis_subject_id": "touchpoint",
+      "metric_groups": [
+        {
+          "metric_group": "activityCountMetrics",
+          "label": "Activity Metrics",
+          "metric_count": 10
+        },
+        {
+          "metric_group": "signalCountMetrics",
+          "label": "Signal Metrics",
+          "metric_count": 1
+        }
+      ],
+      "sections": [
+        {
+          "id": "metrics",
+          "items": [
+            {
+              "label": "Events",
+              "group": "x",
+              "internal": {
+                "id": "m_zvrf8922n8yqnpu",
+                "group_key": "activityCountMetrics"
+              }
+            },
+            {
+              "label": "Sessions",
+              "group": "x",
+              "internal": {
+                "id": "m_zfp2zcnivsdzqvx",
+                "group_key": "activityCountMetrics"
+              }
+            },
+            {
+              "label": "Channels",
+              "group": "x",
+              "internal": {
+                "id": "m_zeq33fij2zgzztf",
+                "group_key": "activityCountMetrics"
+              }
+            },
+            {
+              "label": "Campaigns",
+              "group": "x",
+              "internal": {
+                "id": "m_z485quefnsidcdp",
+                "group_key": "activityCountMetrics"
+              }
+            },
+            {
+              "label": "Sources",
+              "group": "x",
+              "internal": {
+                "id": "m_z3xyg45czgyxcde",
+                "group_key": "activityCountMetrics"
+              }
+            },
+            {
+              "label": "Visitors",
+              "group": "x",
+              "internal": {
+                "id": "m_yyzmguafpicnfsx",
+                "group_key": "activityCountMetrics"
+              }
+            },
+            {
+              "label": "Contacts",
+              "group": "x",
+              "internal": {
+                "id": "m_ysi4psmgmt84ses",
+                "group_key": "activityCountMetrics"
+              }
+            },
+            {
+              "label": "Companies",
+              "group": "x",
+              "internal": {
+                "id": "m_yj33amgtc8bi5zd",
+                "group_key": "activityCountMetrics"
+              }
+            },
+            {
+              "label": "Page Views",
+              "group": "x",
+              "internal": {
+                "id": "m_yfftu5h68a8g2g2",
+                "group_key": "activityCountMetrics"
+              }
+            },
+            {
+              "label": "Impressions",
+              "group": "x",
+              "internal": {
+                "id": "m_y9avyqx9vwfcz6c",
+                "group_key": "activityCountMetrics"
+              }
+            }
+          ]
+        },
+        {
+          "id": "properties",
+          "items": [
+            {
+              "label": "Host",
+              "internal": {
+                "id": "p_xhnuvdkst4iyda4",
+                "scope_key": "touchpoint"
+              }
+            },
+            {
+              "label": "Event Name",
+              "internal": {
+                "id": "p_xj5qpbq6pm8wzu5",
+                "scope_key": "touchpoint"
+              }
+            },
+            {
+              "label": "Channel",
+              "internal": {
+                "id": "p_y54efhqz2gmhgdf",
+                "scope_key": "session"
+              }
+            },
+            {
+              "label": "Signal Name",
+              "internal": {
+                "id": "p_v76webpv65pzquq",
+                "scope_key": "signal"
+              }
+            },
+            {
+              "label": "Signal Category",
+              "internal": {
+                "id": "p_v6uxv2pxn665ve6",
+                "scope_key": "signal"
+              }
+            },
+            {
+              "label": "Session Host",
+              "internal": {
+                "id": "p_x6vkd2hxpcbi8zn",
+                "scope_key": "session"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "report_builder_get_components:signalCountMetrics": {
+      "analysis_type": "touchpoint_activity_performance",
+      "analysis_subject_id": "touchpoint",
+      "metric_groups": [
+        {
+          "metric_group": "activityCountMetrics",
+          "label": "Activity Metrics",
+          "metric_count": 10
+        },
+        {
+          "metric_group": "signalCountMetrics",
+          "label": "Signal Metrics",
+          "metric_count": 1
+        }
+      ],
+      "sections": [
+        {
+          "id": "metrics",
+          "items": [
+            {
+              "label": "Signal Count",
+              "group": "x",
+              "internal": {
+                "id": "m_y54efhqz2gmhgdf",
+                "group_key": "signalCountMetrics"
+              }
+            }
+          ]
+        },
+        {
+          "id": "properties",
+          "items": [
+            {
+              "label": "Host",
+              "internal": {
+                "id": "p_xhnuvdkst4iyda4",
+                "scope_key": "touchpoint"
+              }
+            },
+            {
+              "label": "Event Name",
+              "internal": {
+                "id": "p_xj5qpbq6pm8wzu5",
+                "scope_key": "touchpoint"
+              }
+            },
+            {
+              "label": "Channel",
+              "internal": {
+                "id": "p_y54efhqz2gmhgdf",
+                "scope_key": "session"
+              }
+            },
+            {
+              "label": "Signal Name",
+              "internal": {
+                "id": "p_v76webpv65pzquq",
+                "scope_key": "signal"
+              }
+            },
+            {
+              "label": "Signal Category",
+              "internal": {
+                "id": "p_v6uxv2pxn665ve6",
+                "scope_key": "signal"
+              }
+            },
+            {
+              "label": "Session Host",
+              "internal": {
+                "id": "p_x6vkd2hxpcbi8zn",
+                "scope_key": "session"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "report_builder_run_config:last_7_days:p_xhnuvdkst4iyda4,p_xj5qpbq6pm8wzu5": {
+      "data": [],
+      "nextPageToken": null,
+      "totalRows": 0,
+      "columns": [
+        {
+          "id": "p_xhnuvdkst4iyda4",
+          "label": "Host",
+          "role": "segment",
+          "data_type": "string"
+        },
+        {
+          "id": "p_xj5qpbq6pm8wzu5",
+          "label": "Event Name",
+          "role": "segment",
+          "data_type": "string"
+        },
+        {
+          "id": "m_zvrf8922n8yqnpu",
+          "label": "Events",
+          "role": "metric",
+          "data_type": "number",
+          "display_format": "integer"
+        },
+        {
+          "id": "m_zfp2zcnivsdzqvx",
+          "label": "Sessions",
+          "role": "metric",
+          "data_type": "number",
+          "display_format": "integer"
+        },
+        {
+          "id": "m_yyzmguafpicnfsx",
+          "label": "Visitors",
+          "role": "metric",
+          "data_type": "number",
+          "display_format": "integer"
+        },
+        {
+          "id": "m_ysi4psmgmt84ses",
+          "label": "Contacts",
+          "role": "metric",
+          "data_type": "number",
+          "display_format": "integer"
+        },
+        {
+          "id": "m_yj33amgtc8bi5zd",
+          "label": "Companies",
+          "role": "metric",
+          "data_type": "number",
+          "display_format": "integer"
+        },
+        {
+          "id": "m_yfftu5h68a8g2g2",
+          "label": "Page Views",
+          "role": "metric",
+          "data_type": "number",
+          "display_format": "integer"
+        }
+      ],
+      "config_summary": {
+        "name": "Analyze Engagement",
+        "period": "last 7 days, by day",
+        "breakdown": [
+          "Host",
+          "Event Name"
+        ],
+        "metrics": [
+          "Events",
+          "Sessions",
+          "Visitors",
+          "Contacts",
+          "Companies",
+          "Page Views"
+        ]
+      }
+    },
+    "report_builder_run_config:last_30_days:p_y54efhqz2gmhgdf": {
+      "data": [],
+      "nextPageToken": null,
+      "totalRows": 0,
+      "columns": [
+        {
+          "id": "p_y54efhqz2gmhgdf",
+          "label": "Channel",
+          "role": "segment",
+          "data_type": "string"
+        },
+        {
+          "id": "m_zvrf8922n8yqnpu",
+          "label": "Events",
+          "role": "metric",
+          "data_type": "number",
+          "display_format": "integer"
+        },
+        {
+          "id": "m_zfp2zcnivsdzqvx",
+          "label": "Sessions",
+          "role": "metric",
+          "data_type": "number",
+          "display_format": "integer"
+        },
+        {
+          "id": "m_yyzmguafpicnfsx",
+          "label": "Visitors",
+          "role": "metric",
+          "data_type": "number",
+          "display_format": "integer"
+        },
+        {
+          "id": "m_yj33amgtc8bi5zd",
+          "label": "Companies",
+          "role": "metric",
+          "data_type": "number",
+          "display_format": "integer"
+        },
+        {
+          "id": "m_y9avyqx9vwfcz6c",
+          "label": "Impressions",
+          "role": "metric",
+          "data_type": "number",
+          "display_format": "integer"
+        }
+      ],
+      "config_summary": {
+        "name": "Analyze Engagement",
+        "period": "last 30 days, by day",
+        "breakdown": [
+          "Channel"
+        ],
+        "metrics": [
+          "Events",
+          "Sessions",
+          "Visitors",
+          "Companies",
+          "Impressions"
+        ]
+      }
+    },
+    "report_builder_run_config:last_30_days:p_v76webpv65pzquq": {
+      "data": [],
+      "nextPageToken": null,
+      "totalRows": 0,
+      "columns": [
+        {
+          "id": "p_v76webpv65pzquq",
+          "label": "Signal Name",
+          "role": "segment",
+          "data_type": "string"
+        },
+        {
+          "id": "m_y54efhqz2gmhgdf",
+          "label": "Signal Count",
+          "role": "metric",
+          "data_type": "number",
+          "display_format": "integer"
+        }
+      ],
+      "config_summary": {
+        "name": "Analyze Engagement",
+        "period": "last 30 days, by day",
+        "breakdown": [
+          "Signal Name"
+        ],
+        "metrics": [
+          "Signal Count"
+        ]
+      }
+    }
+  }
+}
